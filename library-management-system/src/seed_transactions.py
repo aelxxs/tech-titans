@@ -75,7 +75,7 @@ def generate_csvs():
         with open(path,"w",newline="") as f:
             writer = csv.DictWriter(f, fieldnames=cols)
             writer.writeheader(); writer.writerows(rows)
-        print("📝", path.name)
+        print(path.name)
 
     dump("borrowing_transactions", bor,
          ["member_id","item_id","staff_id","borrow_date","due_date","return_date"])
@@ -94,7 +94,7 @@ def copy_csv(cur, table, cols):
                 sql.Identifier(table),
                 sql.SQL(', ').join(map(sql.Identifier, cols))
             ), f)
-    print("➡️  loaded", table)
+    print("Loaded", table)
 
 def load_into_db():
     load_dotenv(BASE/".env")
@@ -116,4 +116,4 @@ def load_into_db():
 if __name__ == "__main__":
     generate_csvs()   # writes the four CSVs
     load_into_db()    # bulk-loads them
-    print("✅  Transactions seeded")
+    print("Transactions seeded")

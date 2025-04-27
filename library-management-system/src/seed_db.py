@@ -116,7 +116,7 @@ def main():
         load_items_with_subtypes(cur)
 
         conn.commit()
-        print("✅  Sample data populated")
+        print("Sample data populated")
 
 if __name__ == "__main__":
     main()

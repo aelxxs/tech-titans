@@ -31,4 +31,4 @@ with engine.connect() as conn:
         summary.append({"table": tbl, "rows": cnt})
 
 pd.DataFrame(summary).to_csv(OUT_DIR / "row_counts.csv", index=False)
-print("✅  Previews & counts written to", OUT_DIR)
+print("Previews & counts written to", OUT_DIR)
