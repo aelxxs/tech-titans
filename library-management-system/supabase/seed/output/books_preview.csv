@@ -1,0 +1,11 @@
+book_id,isbn,author,genre,publication_year
+1,1000000000001,A. Writer,Fantasy,2001
+2,1000000000002,D. Teller,Mystery,1994
+3,1000000000003,B. Author,Sci‑Fi,2010
+4,1000000000004,B. Author,Sci‑Fi,1993
+5,1000000000005,A. Writer,Mystery,2016
+6,1000000000006,C. Scribe,History,1995
+7,1000000000007,D. Teller,Sci‑Fi,2011
+8,1000000000008,B. Author,Romance,2017
+9,1000000000009,A. Writer,Fantasy,2015
+10,1000000000010,B. Author,Sci‑Fi,2016

@@ -1,0 +1,4 @@
+type_id,type_name,max_borrow_limit,fine_rate
+1,Regular,5,0.25
+2,Student,7,0.15
+3,Senior Citizen,3,0.1

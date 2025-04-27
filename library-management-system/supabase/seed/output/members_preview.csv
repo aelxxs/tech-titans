@@ -1,0 +1,11 @@
+member_id,name,contact_info,membership_type_id,account_status
+1,Jamie Thomas,jamie0@example.com,1,Active
+2,Casey Thomas,casey1@example.com,2,Active
+3,Jordan Wilson,jordan2@example.com,1,Active
+4,Riley Wilson,riley3@example.com,2,Active
+5,Casey Brown,casey4@example.com,2,Active
+6,Taylor Smith,taylor5@example.com,1,Active
+7,Alex Taylor,alex6@example.com,1,Overdue
+8,Sydney Davis,sydney7@example.com,3,Active
+9,Taylor Thomas,taylor8@example.com,1,Active
+10,Alex Johnson,alex9@example.com,1,Overdue
