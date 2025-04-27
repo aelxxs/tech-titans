@@ -1,0 +1,12 @@
+table,rows
+membership_types,3
+staff,2
+members,50
+library_items,60
+books,20
+digital_media,20
+magazines,20
+borrowing_transactions,40
+reservations,15
+payments,10
+notifications,25
